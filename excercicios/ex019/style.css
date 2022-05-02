@@ -1,0 +1,35 @@
+@charset "UTF=8";
+
+body {
+    background-color: rgba(208, 224, 203, 0.514);
+}
+h1 {
+    color: rgb(7, 136, 7);
+}
+h1#principal { /* Seletor personaloizado */
+    text-align: center;
+    background-color: green;
+    color: aliceblue;
+}
+h2 {
+    color:rgb(16, 207, 16) ;
+
+}
+.basico {
+    color: green;
+    font-weight: bolder;
+}
+.intermediario {
+    color: rgb(185, 185, 8);
+    font-weight: bolder;
+}
+.avançado {
+    color: red;
+    font-weight: bolder;
+}
+.destaque {
+    background-color: rgb(243, 158, 55);
+}
+p {
+    text-indent: 15px;
+}

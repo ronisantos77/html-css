@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex003/favicon.ico" type="image/x-icon">
+    <title>Imagens dinamicas , audio e video</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <p>Tente abrir esse site em varíos dispositivos diferentes ou simplesmente aumente e duminua o tamanho do navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagens flexível funciona">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir audio em HTML5.</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/bensound-dubstep.mp3" type="audio/mpeg">
+        <p>Infelismente seu navegador não pode reproduzir esse audio
+            <a href="midia/bensound-dubstep.mp3">click aqui para baixa-lo</a>
+        </p>
+    </audio> <br>
+    <p><a href="midia/bensound-dubstep.mp3">Baixar o áudio</a></p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/alok.mp3" type="audio/mpeg">
+    </audio>
+
+</body>
+</html>
