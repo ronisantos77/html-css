@@ -33,7 +33,9 @@ a.externo::after{
 
 body {
     background-color: var(--cor0);
-    font-family: var(--fonte-normal)
+    font-family: var(--fonte-normal);
+    background-image: url(imagens/Android-icon.png);
+    background-size: 60px;
    
 }
 header{
@@ -178,7 +180,7 @@ aside > h3 {
 
 footer {
    text-align: center;
-   background-color: var(--cor2);
+   background-color: var(--cor4);
    padding: 8px;
    color: white;
    
@@ -190,6 +192,6 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline;
-    color: var(--cor4);
+    color: whitesmoke;
 
 }
