@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+:root {
+    --texto01:'Tapestry', cursive;
+    --texto02:'Oleo Script Swash Caps', cursive;
+    --texto-normal: Arial, Helvetica, sans-serif;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+html, body {
+    max-height: 100vh;
+    background-color: lightgrey;
+    font-family: var(--texto-normal);
+}
+
+header {
+    background-color: black;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    padding-top: 50px;
+    font-family: var(--texto01);
+    font-size: 10vw;
+    font-variant: small-caps;
+    
+}
+
+header p {
+    color: white;
+    padding-bottom: 50px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    font-family: var(--texto02);
+    line-height: 1.5em;
+    padding-left: 50px;
+    font-size: 4vw;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+section.normal {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: aliceblue;
+    max-width: 45vw;   
+    padding-left: 20px;     
+}
+#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    
+}
