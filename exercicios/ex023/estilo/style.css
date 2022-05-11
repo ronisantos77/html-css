@@ -17,7 +17,7 @@
 }
 
 html, body {
-    max-height: 100vh;
+    min-height: 100vh;
     background-color: lightgrey;
     font-family: var(--texto-normal);
 }
@@ -25,6 +25,7 @@ html, body {
 header {
     background-color: black;
     text-align: center;
+    color:white
 }
 
 h1 {
@@ -55,20 +56,23 @@ section {
     line-height: 1.5em;
     padding-left: 50px;
     font-size: 4vw;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 section.normal {
     background-color: white;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(58, 56, 56);
+    color: white;
+    box-shadow: inset 6px 6px 10px rgb(0, 0, 0, 0.418);
 }
 section.imagem > p{
-    background-color: rgba(0, 0, 0, 0.329);
-    color: aliceblue;
-    max-width: 45vw;   
-    padding-left: 20px;
-    
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-shadow: 2px 2px 2px black;
 }
 #img01 {
     background-image: url(../imagens/background001.jpg);
@@ -76,7 +80,7 @@ section.imagem > p{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 0px 6px 10px 2px rgb(0 0 0 / 42%)
+   
 }
 #img02 {
     background-image: url(../imagens/background002.jpg);
@@ -84,7 +88,7 @@ section.imagem > p{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow:inset 0px 6px 10px 2px rgb(0 0 0 / 42%)
+   
 }
 footer {
     background-color: black;
