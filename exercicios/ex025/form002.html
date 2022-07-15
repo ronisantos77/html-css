@@ -1,1 +1,59 @@
-!
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        body {
+            background-color: #5d62f6c2;
+        }
+        form {
+            margin: auto;
+            padding: 10px;
+            text-align: center;
+            background-color: rgba(0, 255, 255, 0.61);
+            height: 140px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+        }
+        main {
+            background-color: rgba(137, 43, 226, 0.726);
+            margin: auto;
+            height: 280px;
+            width: 500px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.575);
+
+        }
+        main h1 {
+            text-align: center;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de formulário</h1>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <p>
+                <label for="iusu">Usuário: </label>
+                <input type="text" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Nome do usuário / Email" autocomplete="username">
+            </p>
+            <p>
+                <label for="isen">Senha</label>
+                <input type="password" name="sen" id="isen" required minlength="6" maxlength="15" placeholder="Digite sua senha" autocomplete="current-password">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
+    </main>
+</body>
+</html>
