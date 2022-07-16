@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    color: rgb(2, 2, 2);
+    font-variant: small-caps;
+}
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border:  1px solid #ccc;
+    border-radius: 1em;
+    
+}
+form div + div {
+    margin-top: 1em;
+}
+label {
+    display: inline-block;
+    width: 92px;
+    text-align: right;
+}
+input {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus {
+    border-color: #000;
+}
+.button {
+    padding-right: 90px;
+
+}
+button {
+    margin-left: .5em;
+}
