@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 
-
-
-
 /*Typical Device Breakpoints
 -------------------------------
 320px — 480px: Mobile devices.
@@ -78,5 +75,4 @@
     img#pc {display: none;}
     img#tv {display: block;}
 
-
-    
+}
